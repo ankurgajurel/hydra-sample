@@ -1,21 +1,18 @@
-import Image from "next/image";
 import Button from "./ui/button";
 import Text from "./ui/text";
 
 export default function Hero() {
   return (
-    <section className="container py-20 grid lg:grid-cols-2 gap-10">
-      <div className="flex flex-col gap-10 max-w-[75%] my-auto">
-        <div className="grid text-5xl font-bold">
-          <div className="flex gap-3">
+    <section className="container py-10 lg:py-20 grid lg:grid-cols-2 gap-10 max-w-[100vw] overflow-hidden">
+      <div className="flex flex-col gap-10 my-auto">
+        <div className="flex flex-col text-4xl lg:text-5xl font-bold">
+          <div className="flex flex-wrap lg:flex-no-wrap gap-3">
             <Text className="bg-gradient-to-r from-[#C0B7E8] to-[#8176AF] inline-block text-transparent bg-clip-text">
               Dive
             </Text>
             <Text>Into </Text>
             <Text>The</Text>
             <Text>Depths</Text>
-          </div>
-          <div className="flex gap-3">
             <Text>Of</Text>
             <Text className="bg-gradient-to-l from-[#C0B7E8] to-[#8176AF] inline-block text-transparent bg-clip-text">
               Virtual
@@ -25,19 +22,19 @@ export default function Hero() {
             </Text>
           </div>
         </div>
-        <Text className="">
+        <Text className="max-w-[75%]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget.
           Lectus mauris eros in vitae
         </Text>
-        <div className="flex gap-10 items-center">
+        <div className="flex gap-10 items-center group">
           <Button
             variant="secondary"
-            className="bg-button-secondary text-background uppercase py-4 px-8"
+            className="bg-button-secondary text-background uppercase py-4 px-8 hover:text-opacity-55 transition-colors duration-300"
           >
             Build your world
           </Button>
-          <div className="text-button-secondary h-10 w-10">
+          <div className="text-button-secondary h-10 w-10 group-hover:translate-x-6 transition-transform duration-300">
             <svg
               viewBox="0 0 46 38"
               fill="none"
@@ -55,15 +52,10 @@ export default function Hero() {
         </div>
       </div>
       <div className="relative flex justify-end">
-        <Image
-          // objectPosition="absolute"
-          objectFit="cover"
+        <img
           src={"/bg.png"}
           alt="hero"
-          height={450}
-          width={450}
-          // fill
-          className=""
+          className="max-w-[80vw] mx-auto lg:max-w-full object-contain"
         />
         <BgSvg />
       </div>

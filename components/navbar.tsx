@@ -26,7 +26,7 @@ export default function Navbar() {
         </Button>
         <Button
           variant="secondary"
-          className="bg-button-secondary text-background hover:shadow-3xl hover:text-background/80 transition-colors duration-200"
+          className="bg-button-secondary text-background hover:shadow-3xl hover:text-opacity-55 transition-colors duration-200"
         >
           JOIN HYDRA
         </Button>
