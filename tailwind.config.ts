@@ -9,9 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "#302C42",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "header-button-secondary": "linear-gradient(to right, #8176AF, #C0B7E8)",
+      }
     },
   },
   plugins: [],

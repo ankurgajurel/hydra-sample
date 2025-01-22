@@ -11,9 +11,11 @@ export default function Navbar() {
       </div>
       <nav className="menu">
         <ul className="flex gap-5">
-          {menu.map((menuItem) => {
+          {menu.map((menuItem, index) => {
             return (
-              <Text className="text-xs uppercase font-bold">{menuItem}</Text>
+              <Text key={index} className="text-xs uppercase font-bold">
+                {menuItem}
+              </Text>
             );
           })}
         </ul>
