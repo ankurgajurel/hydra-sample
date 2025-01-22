@@ -2,6 +2,7 @@ import Image from "next/image";
 import Text from "../ui/text";
 import Seperator from "../ui/seperator";
 import Button from "../ui/button";
+import LongRightArrow from "../long-right-arrow";
 
 const features = [
   {
@@ -38,9 +39,12 @@ export default function WhyHydra() {
   return (
     <section className="container py-10 flex flex-col gap-10">
       <div className="grid lg:grid-cols-2 gap-10">
-        <div className="flex flex-col text-center lg:text-left gap-3">
-          <Text className="text-3xl font-bold uppercase">Why Build</Text>
-          <Text className="text-3xl font-light uppercase">With Hydra?</Text>
+        <div className="flex gap-5">
+          <div className="flex flex-col text-center lg:text-left gap-3">
+            <Text className="text-3xl font-bold uppercase">Why Build</Text>
+            <Text className="text-3xl font-light uppercase">With Hydra?</Text>
+          </div>
+          <LongRightArrow className="h-full flex items-end" />
         </div>
         <div>
           <Text>

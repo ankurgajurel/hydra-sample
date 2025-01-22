@@ -1,12 +1,16 @@
+import LongRightArrow from "../long-right-arrow";
 import Text from "../ui/text";
 
 export default function Introduction() {
   return (
     <section className="container py-10 flex flex-col gap-10">
       <div className="grid lg:grid-cols-2 gap-10">
-        <div className="flex flex-col text-center lg:text-left gap-3">
-          <Text className="text-3xl font-bold uppercase">Introduction</Text>
-          <Text className="text-3xl font-light uppercase">To Hydra VR</Text>
+        <div className="flex">
+          <div className="flex flex-col text-center lg:text-left gap-3">
+            <Text className="text-3xl font-bold uppercase">Introduction</Text>
+            <Text className="text-3xl font-light uppercase">To Hydra VR</Text>
+          </div>
+          <LongRightArrow className="h-full flex items-end" />
         </div>
         <div>
           <Text>
