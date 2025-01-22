@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Text from "./ui/text";
 import Seperator from "./ui/seperator";
+import Button from "./ui/button";
 
 export default function Footer() {
   const menu = ["About", "Services", "Technologies", "How to", "Join Hydra"];
@@ -42,10 +43,16 @@ export default function Footer() {
           </ul>
         </nav>
         <Seperator />
-        <div className="my-auto flex flex-col gap-5">
+        <div className="my-auto flex flex-col items-between justify-between gap-5 h-full">
           <Text className="text-sm uppercase font-bold">
             Socialize with Hydra
           </Text>
+          <Button
+            variant="secondary"
+            className="bg-button-secondary text-background hover:shadow-3xl hover:text-opacity-55 transition-colors duration-200"
+          >
+            Build your world
+          </Button>
         </div>
       </div>
 

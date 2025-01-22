@@ -13,10 +13,7 @@ export default function Navbar() {
         <ul className="flex gap-5">
           {menu.map((menuItem, index) => {
             return (
-              <Text
-                key={index}
-                className="text-xs uppercase font-bold hover:text-gray-300 cursor-pointer"
-              >
+              <Text key={index} className="text-xs uppercase font-bold hover:text-gray-300 cursor-pointer">
                 {menuItem}
               </Text>
             );
@@ -26,6 +23,12 @@ export default function Navbar() {
       <div className="cta gap-5 hidden lg:flex">
         <Button className="hover:bg-opacity-80 hover:text-gray-400 hover:border-gray-400 transition-colors duration-200">
           CONTACT US
+        </Button>
+        <Button
+          variant="secondary"
+          className="bg-button-secondary text-background hover:shadow-3xl hover:text-opacity-55 transition-colors duration-200"
+        >
+          JOIN HYDRA
         </Button>
       </div>
     </header>
