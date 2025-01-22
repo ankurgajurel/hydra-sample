@@ -14,8 +14,11 @@ export default {
       },
       backgroundImage: {
         "button-secondary": "linear-gradient(to right, #8176AF, #C0B7E8)",
-        "form-background": "radial-gradient(circle farthest-side at center, #403A5F, #211E2E)"
-      }
+        "form-radial":
+          "radial-gradient(circle farthest-side at center, #403A5F, #211E2E)",
+        "feature-card":
+          "radial-gradient(circle farthest-side at center, #433D60, #211E2E)",
+      },
     },
   },
   plugins: [],

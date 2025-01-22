@@ -3,8 +3,8 @@ import Text from "./ui/text";
 
 export default function Hero() {
   return (
-    <section className="container py-10 lg:py-20 grid lg:grid-cols-2 gap-10 max-w-[100vw] overflow-hidden">
-      <div className="flex flex-col gap-10 my-auto">
+    <section className="container py-10 lg:py-20 grid lg:grid-cols-2 gap-10 max-w-[100vw]">
+      <div className="flex flex-col gap-12 my-auto">
         <div className="flex flex-col text-4xl lg:text-5xl font-bold">
           <div className="flex flex-wrap lg:flex-no-wrap gap-3">
             <Text className="bg-gradient-to-r from-[#C0B7E8] to-[#8176AF] inline-block text-transparent bg-clip-text">
@@ -13,6 +13,7 @@ export default function Hero() {
             <Text>Into </Text>
             <Text>The</Text>
             <Text>Depths</Text>
+            <br className="hidden lg:block" />
             <Text>Of</Text>
             <Text className="bg-gradient-to-l from-[#C0B7E8] to-[#8176AF] inline-block text-transparent bg-clip-text">
               Virtual

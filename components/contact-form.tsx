@@ -5,7 +5,7 @@ import Text from "./ui/text";
 
 export default function ContactForm() {
   return (
-    <section className="container border border-white rounded-3xl bg-form-background flex flex-col gap-5 py-20 px-20">
+    <section className="container border border-white rounded-3xl bg-form-radial flex flex-col gap-5 py-20 px-20">
       <div className="grid gap-5 text-center">
         <Text className="font-bold text-3xl">JOIN HYDRA</Text>
         <Seperator variant="horizontal" />
