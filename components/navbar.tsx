@@ -5,7 +5,7 @@ import Text from "./ui/text";
 export default function Navbar() {
   const menu = ["About", "Services", "Technologies", "How to"];
   return (
-    <header className="container py-10 flex items-center justify-between">
+    <header className="container py-10 flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between">
       <div className="logo">
         <Image src={"/logo.svg"} height={50} width={150} alt="Logo" />
       </div>
@@ -20,13 +20,13 @@ export default function Navbar() {
           })}
         </ul>
       </nav>
-      <div className="cta flex gap-5">
+      <div className="cta gap-5 hidden lg:flex">
         <Button className="hover:bg-opacity-80 hover:text-gray-400 hover:border-gray-400 transition-colors duration-200">
           CONTACT US
         </Button>
         <Button
           variant="secondary"
-          className="bg-header-button-secondary text-background hover:shadow-3xl hover:text-background/80 transition-colors duration-200"
+          className="bg-button-secondary text-background hover:shadow-3xl hover:text-background/80 transition-colors duration-200"
         >
           JOIN HYDRA
         </Button>

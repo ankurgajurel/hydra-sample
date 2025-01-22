@@ -13,7 +13,8 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        "header-button-secondary": "linear-gradient(to right, #8176AF, #C0B7E8)",
+        "button-secondary": "linear-gradient(to right, #8176AF, #C0B7E8)",
+        "form-background": "radial-gradient(circle farthest-side at center, #403A5F, #211E2E)"
       }
     },
   },

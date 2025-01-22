@@ -33,11 +33,11 @@ export default function Hero() {
         <div className="flex gap-10 items-center">
           <Button
             variant="secondary"
-            className="bg-header-button-secondary text-background uppercase py-4 px-8"
+            className="bg-button-secondary text-background uppercase py-4 px-8"
           >
             Build your world
           </Button>
-          <div className="text-header-button-secondary h-10 w-10">
+          <div className="text-button-secondary h-10 w-10">
             <svg
               viewBox="0 0 46 38"
               fill="none"

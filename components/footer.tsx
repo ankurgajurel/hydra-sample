@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Text from "./ui/text";
+import Seperator from "./ui/seperator";
 
 export default function Footer() {
   const menu = ["About", "Services", "Technologies", "How to", "Join Hydra"];
@@ -55,11 +56,5 @@ export default function Footer() {
         </Text>
       </div>
     </footer>
-  );
-}
-
-function Seperator() {
-  return (
-    <div className="mx-auto h-[1px] lg:h-full w-full lg:w-[2px] bg-gradient-to-b from-[#343045] via-[#C0B7E8] to-[#343045]" />
   );
 }
