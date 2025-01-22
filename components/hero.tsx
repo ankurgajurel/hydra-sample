@@ -4,7 +4,7 @@ import Text from "./ui/text";
 
 export default function Hero() {
   return (
-    <section className="container py-20 grid grid-cols-2 gap-10">
+    <section className="container py-20 grid lg:grid-cols-2 gap-10">
       <div className="flex flex-col gap-10 max-w-[75%] my-auto">
         <div className="grid text-5xl font-bold">
           <div className="flex gap-3">
@@ -56,12 +56,13 @@ export default function Hero() {
       </div>
       <div className="relative flex justify-end">
         <Image
-          objectPosition="absolute"
+          // objectPosition="absolute"
           objectFit="cover"
           src={"/bg.png"}
           alt="hero"
           height={450}
           width={450}
+          // fill
           className=""
         />
         <BgSvg />
@@ -72,7 +73,7 @@ export default function Hero() {
 
 function BgSvg() {
   return (
-    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10">
+    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10 max-w-[100vw] overflow-hidden">
       <svg
         width="736"
         height="846"
