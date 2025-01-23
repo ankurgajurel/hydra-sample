@@ -44,9 +44,9 @@ export default function Hero() {
               <path
                 d="M43.8333 19L2.16666 19M43.8333 19L27.1667 35.6667M43.8333 19L27.1667 2.33333"
                 stroke="#C0B7E8"
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -77,17 +77,17 @@ function BgSvg() {
         <path
           d="M733 170C643.774 184.843 473.913 269.224 508.271 487.998C542.63 706.772 396.407 813.155 319 839"
           stroke="url(#paint0_linear_0_1)"
-          stroke-width="6"
+          strokeWidth="6"
         />
         <path
           d="M738.5 420.5C491.667 408.333 -0.900015 474.9 3.49999 838.5"
           stroke="url(#paint1_linear_0_1)"
-          stroke-width="6"
+          strokeWidth="6"
         />
         <path
           d="M225.193 0C221.912 140.127 259.209 433.314 434.642 485.053C610.075 536.792 613.776 746.576 593.697 845"
           stroke="url(#paint2_linear_0_1)"
-          stroke-width="6"
+          strokeWidth="6"
         />
         <defs>
           <linearGradient

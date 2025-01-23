@@ -16,11 +16,11 @@ export default function LongRightArrow({ ...props }: Props) {
       <path
         d="M198.833 49.9999L157.167 49.9999M198.833 49.9999L182.167 66.6666M198.833 49.9999L182.167 33.3333"
         stroke="#C0B7E8"
-        stroke-width="3"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <path d="M157.5 50H0" stroke="#C0B7E8" stroke-width="3" />
+      <path d="M157.5 50H0" stroke="#C0B7E8" strokeWidth="3" />
     </svg>
   );
 }

@@ -54,8 +54,8 @@ function BgSvg() {
       <path
         d="M-4.5 359.5C153.667 306.167 504.6 231.5 643 359.5C816 519.5 1071.5 543.5 1186.5 431C1278.5 341 1394.17 355.833 1440.5 374.5"
         stroke="url(#paint1_linear_0_1)"
-        stroke-opacity="0.13"
-        stroke-width="6"
+        strokeOpacity="0.13"
+        strokeWidth="6"
       />
       <defs>
         <linearGradient

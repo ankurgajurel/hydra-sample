@@ -11,7 +11,7 @@ export default function Input({ variant = "input", ...props }: Props) {
       <textarea
         {...props}
         className={cn(
-          "bg-transparent text-white px-5 py-3 border-2 border-white rounded-3xl text-sm min-h-[150px]",
+          "bg-transparent text-white px-5 py-3 outline outline-white rounded-3xl text-sm min-h-[150px]",
           props.className
         )}
       />
@@ -21,7 +21,7 @@ export default function Input({ variant = "input", ...props }: Props) {
     <input
       {...props}
       className={cn(
-        "bg-transparent text-white px-5 py-3 border-2 border-white rounded-xl text-sm",
+        "bg-transparent text-white px-5 py-3 border border-white rounded-xl text-sm",
         props.className
       )}
     />
